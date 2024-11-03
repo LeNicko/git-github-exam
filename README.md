@@ -117,9 +117,6 @@ Réponse :
 
 11. Quelle est la commande qui permet de se mettre sur n'importe quel commit d'un historique git ? 
  - checkout
- - switch
- - mv
- - rm
 
 12. Dans quelles conditions est-ce qu'un conflit apparaît avec git ? 
 - Lorsque deux développeurs sont sur des systèmes d'exploitation différents
