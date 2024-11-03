@@ -129,9 +129,6 @@ Réponse :
 
 
 3.   Lorsque vous résolvez un conflit, quelle est la dernière commande git que vous tapez ? 
- - add
- - rm
- - mv
  - commit
 
 4.   Quelle est la commande git qui permet de propager ses modifications sur un dépôt distant ? 
