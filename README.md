@@ -121,16 +121,12 @@ Réponse :
 12. Dans quelles conditions est-ce qu'un conflit apparaît avec git ? 
 - Lorsqu'il y a un merge entre deux branches qui modifient la même partie d'un fichier
 
-
 1.   Lorsqu'il y a un conflit, qu'indique la commande `git status` sur les fichiers qui demandent une résolution ? 
  - both modified
-
   
 2.   Dans quelle zone du dépôt est-ce que les modifications sont regroupées *avant* de créer un commit ? 
  - le stage
- - le workspace
- - le git tree
- - le git storage
+
 
 3.   Lorsque vous résolvez un conflit, quelle est la dernière commande git que vous tapez ? 
  - add
