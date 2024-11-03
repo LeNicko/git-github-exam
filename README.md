@@ -78,8 +78,7 @@ Réponse :
 
 1. Qui a inventé le logiciel git ?
 - Linus Torvalds
-
-
+  
 1. Pour créer un dépôt localement à partir d'un répertoire vide, quelle est la commande git à utiliser ?
  - init
 
@@ -112,10 +111,8 @@ Réponse :
 9.  À la première utilisation, quelles sont les informations nécessaires pour créer un commit ?
  - le nom de l'utilisateur git
  - l'adresse mail de l'utilisateur git
+  
 10. Quelle est la commande qui permet de mettre à jour la branche sur laquelle on se trouve par rapport à un dépôt distant ? 
- - fetch
- - merge
- - commit
  - pull
 
 11. Quelle est la commande qui permet de se mettre sur n'importe quel commit d'un historique git ? 
@@ -130,72 +127,72 @@ Réponse :
 - Lorsqu'on met à jour l'adresse du dépôt distant pour changer de protocole de communication
 - Lorsqu'il y a des modifications locales qui ne sont pas dans un commit et qu'on essaie de changer de branche
 
-1.  Lorsqu'il y a un conflit, qu'indique la commande `git status` sur les fichiers qui demandent une résolution ? 
+1.   Lorsqu'il y a un conflit, qu'indique la commande `git status` sur les fichiers qui demandent une résolution ? 
  - twice modified
  - conflicted
  - both modified
  - warning
   
-2.  Dans quelle zone du dépôt est-ce que les modifications sont regroupées *avant* de créer un commit ? 
+2.   Dans quelle zone du dépôt est-ce que les modifications sont regroupées *avant* de créer un commit ? 
  - le stage
  - le workspace
  - le git tree
  - le git storage
 
-3.  Lorsque vous résolvez un conflit, quelle est la dernière commande git que vous tapez ? 
+3.   Lorsque vous résolvez un conflit, quelle est la dernière commande git que vous tapez ? 
  - add
  - rm
  - mv
  - commit
 
-4.  Quelle est la commande git qui permet de propager ses modifications sur un dépôt distant ? 
+4.   Quelle est la commande git qui permet de propager ses modifications sur un dépôt distant ? 
 - push
 - pull
 - fetch
 - clone
 
-1.  Comment s'appelle le mécanisme qui permet d'accepter ou de refuser une contribution sur un dépôt GitHub ? 
+1.   Comment s'appelle le mécanisme qui permet d'accepter ou de refuser une contribution sur un dépôt GitHub ? 
  - Commit Request
  - Change Request
  - Pull Request
  - Push Request
 
-2.  Après avoir accepté une contribution sur la branche principale sur Github, que devez vous faire pour mettre à jour votre branche principale localement ? 
+2.   Après avoir accepté une contribution sur la branche principale sur Github, que devez vous faire pour mettre à jour votre branche principale localement ? 
  - à partir d'une branche de développement, faire un commit des derniers changements, et faire un git push
  - faire une nouvelle branche qui part de la branche principale et faire un git pull
  - se mettre sur la branche principale et faire un git push
  - se mettre sur la branche principale et faire un git pull
 
-3.  Qu'est-ce que fait la commande `git merge` ?
+3.   Qu'est-ce que fait la commande `git merge` ?
  -  fusionne l'historique d'une branche avec une autre en créant un nouveau commit de fusion;
  -  remplace l'historique d'une branche par celui d'une autre sans créer de commit
  -  annule les derniers commits.
  -  copie un fichier d'une branche à une autre
 
-4.  Quelle est une conséquence potentielle de l'utilisation de `git rebase` sur une branche publique ?
+4.   Quelle est une conséquence potentielle de l'utilisation de `git rebase` sur une branche publique ?
  - Les conflits de fusion seront automatiquement résolus.
  - L'historique des commits sera simplifié, rendant la branche plus facile à lire.
  - Les autres collaborateurs ayant déjà récupéré la branche peuvent rencontrer des problèmes de synchronisation avec l'historique modifié.
  - Il n'y a aucun impact, car `rebase` ne modifie rien dans Git.
 
-5.  Les branches de suivi (*tracking branch*) sont:
+5.   Les branches de suivi (*tracking branch*) sont:
 
  - Des branches locales qui suivent automatiquement les commits d'une autre branche locale.
  - Des branches locales configurées pour suivre les modifications d'une branche distante.
  - Des branches distantes qui suivent les commits de toutes les branches locales.
  - Des branches qui fusionnent automatiquement les modifications entre plusieurs branches.  
 
-23. Pour mettre à jour (dans le même état) les branches de suivi (*tracking branch*) avec les branches distantes, il faut:
+22. Pour mettre à jour (dans le même état) les branches de suivi (*tracking branch*) avec les branches distantes, il faut:
 
   - Utiliser `git fetch`.
   - Utiliser `git pull`
 
-24. `git pull` fait automatiquement un rapatriement de commits d'une branche à l'autre via une stratégie de *merge*: 
+23. `git pull` fait automatiquement un rapatriement de commits d'une branche à l'autre via une stratégie de *merge*: 
 
  - Vrai.
  - Faux.
 
-25. Le nom `origin` donné à un dépôt distant est:
+24. Le nom `origin` donné à un dépôt distant est:
   
  - Obligatoire.
  - Une convention.
