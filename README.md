@@ -100,10 +100,8 @@ Réponse :
 
 
 6. Quelle est la commande git qui permet d'ajouter un nouveau fichier dans un futur commit ?
- - mv
- - clone
  - add
- - commit
+
 
 7. Est-il possible d'ajouter un répertoire vide dans un dépôt git ?
  - Oui
