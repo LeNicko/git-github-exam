@@ -96,10 +96,8 @@ Réponse :
  - les distantes
 
 5. À quoi sert la commande `git fetch -p` ? Utiliser la documentation `man git fetch`.
- - mettre à jour les branches locales par rapport aux branches distantes
- - supprimer les branches locales qui n'existent plus sur le dépôt distant
  - mettre à jour les références locales de branches distantes et supprimer celles qui n'existent plus sur le dépôt distant
- - supprimer les branches distantes qui n'existent plus sur le dépôt local
+
 
 6. Quelle est la commande git qui permet d'ajouter un nouveau fichier dans un futur commit ?
  - mv
